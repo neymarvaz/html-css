@@ -151,7 +151,7 @@ p{
 body{
     background-color: #c5ebd6;
     font-family: var(--fonte-padrão);
-    min-width: 442px;
+    min-width: 280px;
 }
 a.externo::after {
     content:'\1F517'
@@ -276,6 +276,7 @@ aside {
 
 }
 aside > ul{
+    font-size: 0.9em;
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
     columns: 2;
