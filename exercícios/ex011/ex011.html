@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <link rel="shortcut icon" href="C:\Users\Neymar\Desktop\html-css\exercícios\ex004\favicon.ico" type="image/x-icon">
+    <link as="script">
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente abrir ese site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem Flexível">
+    </picture>
+    <h2> Reproduzindo Audios</h2>
+    <p>Aprendendo a reproduzir audios em HTML5.</p>
+    <audio src="audios/danceofthegypsies-hanudixit.mp3" autoplay controls> 
+    </audio>
+    <p><br></p>
+    <video src="imagens/pexels_videos_2583490 (1080p).mp4" width="500" poster="imagens/_13c235e1-146b-47f2-836e-f20cd241bb9c.jpg" autoplay controls>
+      
+    </video>
+    <h1>Inserindo videos hospedados localmente
+        <p>Esse vídeo está hospedado no meu próprio servidor</p>
+
+    </h1>
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/_13c235e1-146b-47f2-836e-f20cd241bb9c.jpg" type="image/jpg">
+        <img src="imagens/_13c235e1-146b-47f2-836e-f20cd241bb9c.jpg" width="500"  alt="Fotinha do Limãozin">
+    </picture>
+    <video src=""></video>
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="1080" height="720" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=8QTp8E3dvJIIfc7d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <p><br><br><br><br><br></p>
+    <iframe src="https://player.vimeo.com/video/172973109?h=5541792f31" width="1080" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/172973109" target="_blank" rel="external">Reel 2016</a> from <a href="https://vimeo.com/beatreichenbach">Beat Reichenbach</a> on <a href="https://vimeo.com" target="_blank" rel="external">Vimeo</a>.</p>
+</body>
+</html>

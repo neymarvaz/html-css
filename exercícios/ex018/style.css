@@ -1,0 +1,56 @@
+@charset "UTF-8";
+*{
+    font-family: sans-serif;
+}
+body{
+    font-family: sans-serif;
+    /*font-size: 
+    
+    Medidas absolutas
+    cm, mm, in, px, pt, pc;
+
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    em: relativo ao tamanho da letra M atual da fonte
+    ex: relativo ao tamanho da letra x atual da fonte
+    rem: relativo ao tamanho M da fonte utilizada no body
+    vw relativo ao viewport width ou largura do dispositivo usado
+    vh relativo ao viewport height ou altura do dispositivo usado
+    %
+    16px geralmente = 1em
+
+    a W3c recomenda o uso do px e do em
+    */
+    font-size: 1.5em;
+
+    background-image: linear-gradient(to bottom, white, lightblue, mediumblue, darkblue);
+    height: 2000px;
+
+}
+main{
+    
+    height: auto;
+    background-color:aliceblue;
+    border-radius: 60px;
+    box-shadow: 20px 20px 50px black;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+
+}
+h1{
+    text-align: center;
+    color: goldenrod;
+    text-shadow: 1px 1px 0px black;
+
+}
+h2{
+    text-align: center;
+    color: darkgreen;
+
+}
+p{
+    text-align: center;
+    color: dimgrey;
+
+}

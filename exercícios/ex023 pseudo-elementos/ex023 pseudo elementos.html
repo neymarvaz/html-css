@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible">
+    <title>Links</title>
+    <style>
+
+        /* simbologias dentro de css: SELETORES PERSONALIZADOS 
+            #   = id
+            .   = class
+            :   = pseudo-class
+            ::  = pseudo-element
+            >   = children
+            */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:active{
+            color:yellow
+
+        }
+        .especial{
+            background-color: black;
+
+        }
+        a.especial::before{
+            content:'->> '
+        }
+        a.especial::after{
+            content:' <<-'
+        }
+        /*a::after{
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color:darkgrey;
+        }*/
+    </style>
+    <!--<div id="comp-lic5m01a1" dir="ltr" class="btvOrl comp-lic5m01a1 wixui-search-bar" aria-live="polite" data-testid="search-box-container" tabindex="-1" style="--component-height: 45px;">
+        <div class="_xpJkc">
+            <div class=" oRg3Ie">
+                <form class="wdVIxK" data-testid="search-box-form" role="search" action="https://www.google.com/search">
+                    <div class="aXOBOn">
+                        <div class="KsMOVs"></div>
+                        <div class="ipSfdV" data-testid="search-icon"></div>
+                            <div class="TmqMif wixui-search-bar__icon">
+                                <svg xmlns="http://www.w3.org/2000.svg" viewBox="5 5 14 14"> == $0 
+                                    <path fill="currentColor" d="m15.683 14.6 3.265 3.265a.2.2 0 0 1 0 .282l-.8.801a.2.2 0 0 1-.283 0l-3.266-3.265a5.961 5.961 0 1 1 1.084-1.084zm-4.727 1.233a4.877 4.877 0 1 0 0-9.754 4.877 4.877 0 0 0 0 9.754z" 
+
+                                </svg>
+                            </div>
+                        <div class="nNn3mc"></div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    !-->
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.com/" target="_blank">Repositório Github</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank" class="especial">Site do Curso em Video</a></li>
+    </ul>
+    <h2>Links</h2>
+</body>
+</html>

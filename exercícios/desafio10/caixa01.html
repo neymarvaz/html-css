@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas </title>
+    <style>
+        h1{ /* box-level */
+            background-color: lightgray;
+            height: fit-content;
+            width: auto;
+
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+            vai ser simplificado da maneira abaixo*/
+
+            border: 10px solid darkslategray;
+
+            /*padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            vai ser simplificado da maneira abaixo*/
+
+            padding: 10px;
+
+            /*margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom:40px ;
+            margin-left: 20px;
+            vai ser simplificado da maneira abaixo*/
+
+            margin: 20px 20px 40px 20px;
+
+            /*margin:auto; margin auto centraliza o conteudo*/
+            /*outline-width: 10px;
+            outline-style: dashed;
+            outline-color: salmon;
+            vai ser simplificado da maneira abaixo*/
+
+            outline: 10px dashed salmon;
+
+        }
+        a{ /* in-line level*/
+            /* border-width: 10px;
+            border-style: solid;
+            border-color: red; */
+            display: block;
+            border: 4px solid blueviolet
+        }
+        body{
+            margin: 10px 15px 20px 10px;
+            width: auto;
+            height: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona</p>
+    <!---Configurações padrão h1 definido pelo próprio navegador:
+      h1 {
+    display: block; 
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}  >  <--->
+
+</body>
+</html>
