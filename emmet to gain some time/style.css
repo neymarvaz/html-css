@@ -28,7 +28,7 @@
   }
   .card{
     color:var(--clr-neutral-100) ;
-    background-image: url(https://github.com/neymarvaz/html-css/blob/main/emmet%20to%20gain%20some%20time/images/pexels-francesco-ungaro-1526717.jpg);
+    background-image: url(../emmettoupthehtmlgame/images/pexels-francesco-ungaro-1526717.jpg);
     background-size: 200px;
     padding: 5rem 0 0;
     max-width: 35ch;
@@ -143,9 +143,9 @@
     border-bottom-right-radius: 0px;
     border-top-left-radius: 0px;
     margin: 0px;
-    background-image: url(https://github.com/neymarvaz/html-css/blob/main/emmet%20to%20gain%20some%20time/images/pexels-francesco-ungaro-1526717.jpg);
+    background-image: url(../emmettoupthehtmlgame/images/pexels-francesco-ungaro-1526717.jpg);
     background-position: center center;
-    background-size: 1300px;
+    background-size: cover;
     background-repeat: no-repeat;
   }
   a>nav{
