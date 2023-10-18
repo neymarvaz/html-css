@@ -25,7 +25,7 @@
   }
   .card{
     color:var(--clr-neutral-100) ;
-    background-image: url(../../../../Downloads/pexels-francesco-ungaro-1526717.jpg);
+    background-image: url('C:\Users\Neymar\Desktop\Web studies\html-css\emmet to gain some time\images\pexels-francesco-ungaro-1526717.jpg');
     background-size: 200px;
     padding: 8rem 0 0;
     max-width: 35ch;
@@ -140,7 +140,7 @@
     border-bottom-right-radius: 0px;
     border-top-left-radius: 0px;
     margin: 0px;
-    background-image: url('../../../../Downloads/pexels-francesco-ungaro-1526717.jpg');
+    background-image: url('C:\Users\Neymar\Desktop\Web studies\html-css\emmet to gain some time\images\pexels-francesco-ungaro-1526717.jpg');
     background-position: center center;
     background-size: 1300px;
     background-repeat: no-repeat;
