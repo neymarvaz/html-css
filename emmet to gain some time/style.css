@@ -28,7 +28,7 @@
   }
   .card{
     color:var(--clr-neutral-100);
-    background-image: url(../emmettoupthehtmlgame/images/pexels-francesco-ungaro-1526717.jpg);
+    background-image: url('../emmet\ to\ gain\ some\ time/images/pexels-francesco-ungaro-1526717.jpg');
     background-size: 312px;
     padding: 12rem 0px 0px;
     height: 467px;
@@ -140,7 +140,7 @@
     border-bottom-right-radius: 0px;
     border-top-left-radius: 0px;
     margin: 0px;
-    background-image: url(../emmettoupthehtmlgame/images/pexels-francesco-ungaro-1526717.jpg);
+    background-image: url('../emmet\ to\ gain\ some\ time/images/pexels-francesco-ungaro-1526717.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
