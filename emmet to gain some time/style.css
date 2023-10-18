@@ -23,11 +23,14 @@
     font-family: sans-serif;
     padding-right: 2em;
   }
+  .container{
+    padding-top: 0px;
+  }
   .card{
     color:var(--clr-neutral-100) ;
     background-image: url('C:\Users\Neymar\Desktop\Web studies\html-css\emmet to gain some time\images\pexels-francesco-ungaro-1526717.jpg');
     background-size: 200px;
-    padding: 8rem 0 0;
+    padding: 5rem 0 0;
     max-width: 35ch;
     border-radius: 1rem; /* esse comando tá deixando o topo arredondado mas a parte de baixo não porque a transparência que a gente usou na parte debaixo está quadrada*/
     overflow: hidden; 
@@ -160,5 +163,6 @@
     color: white;
   }
   .primary-header{
-    padding-top: 20px;
+    padding-top: 0px;
+    margin-top: 20px;
   }
