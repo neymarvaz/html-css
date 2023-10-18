@@ -27,11 +27,12 @@
     padding-top: 0px;
   }
   .card{
-    color:var(--clr-neutral-100) ;
+    color:var(--clr-neutral-100);
     background-image: url(../emmettoupthehtmlgame/images/pexels-francesco-ungaro-1526717.jpg);
-    background-size: 200px;
-    padding: 5rem 0 0;
-    max-width: 35ch;
+    background-size: 312px;
+    padding: 12rem 0px 0px;
+    height: 467px;
+    max-width: 39ch;
     border-radius: 1rem; /* esse comando tá deixando o topo arredondado mas a parte de baixo não porque a transparência que a gente usou na parte debaixo está quadrada*/
     overflow: hidden; 
     /* o overflow impede que a trasnparência atrapalhe o border-radius que aplicamos  */
@@ -42,33 +43,29 @@
     transform: scale(1.05);
   }
   .card-content{
-    --padding: 1.5rem;
+    --padding: 2.5rem;
     padding: var(--padding);
     background: linear-gradient(
         hsl(0 0% 0% /0), 
         hsl(0 0% 00% /.3) 20%,
         hsl(0 0% 0% /1)
     );
-    
 }
     .card:hover .card-content > * {
     opacity: 1;
   }
      .card-title{
     position: relative;
-    width: max-content;
-
+    min-width: max-content;
   }
   .card-title::after{
     content:"";
     position: absolute;
     height: 4px;
     left: calc(var(--padding)*-1);
-
     bottom: 0;
     width: calc(100% + var(--padding));
     background: var(--clr-accent-400);
-    
     transform-origin: left;
     transition: transform 0.8s ease;
   }
@@ -81,7 +78,7 @@
   }
   @media (hover) {
     .card-content {
-    transform: translateY(65%); 
+    transform: translateY(65%);
     transition: transform 800ms ease;
     }
     .card:hover .card-content,
