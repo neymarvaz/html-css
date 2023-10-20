@@ -84,7 +84,7 @@ section.normal{
     
 }
 section.imagemr{
-    background: black url('../projeto\ cordel/imagens/pathamarelado.png') center center no-repeat fixed;
+    background: black url('../projeto\ cordel/imagens/pexels-austin-sullivan-14059697.jpg') center center no-repeat fixed;
     color: white;
     box-shadow: inset 6px 4px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
@@ -117,5 +117,11 @@ section.imagem1{
 section#img2 {
     background: black url(../projeto\ cordel/imagens/road-1072823.jpg) center center no-repeat ;
     background-size:cover; 
-    background-attachment: scroll;
+    background-attachment: fixed;
+    
+}
+@media only screen and (max-device-width): 1920px{ /* para correção de parallax */ 
+    .imagem {
+        background-attachment: scroll;
+    }
 }
