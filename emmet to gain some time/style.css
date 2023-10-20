@@ -37,6 +37,8 @@
     overflow: hidden; 
     /* o overflow impede que a trasnparência atrapalhe o border-radius que aplicamos  */
     transition: transform 500ms ease;
+
+  
   }
   .card:hover,
   .card:focus-within {

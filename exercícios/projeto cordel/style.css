@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+html,body,main {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+    
+}
+header>h1{
+    font-family: 'Passion One', sans-serif;
+    font-size: 10vw;
+    font-variant: small-caps;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+header>h2{
+    font-family:var(--fonte2);
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+main{
+    font-family: 'Sriracha', 'cursive';
+    font-size: 1.5em;
+    text-align: left;
+    padding-left: 20px;
+    
+}
+header a, footer a{
+    text-decoration: none;
+    
+}
+footer a{
+    color: red;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    font-family: var(--fonte2);
+    font-weight: bold;
+    color: white;
+    font-size: 2vw;  
+}
+footer p{
+    text-shadow: 0px 1px 0px black;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.3vw;
+}
+section > p{
+    padding-bottom: 2em;
+}
+section.normal{
+    background-color: white;
+    font-family: var(--fonte3);
+    
+}
+section.imagemr{
+    background: black url(../../../../../Downloads/pathamarelado.png) center center no-repeat fixed;
+    color: white;
+    box-shadow: inset 6px 4px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    text-align: right;
+    padding-right:3.5vh;
+}
+section.imagemr > p {
+    text-shadow: 1px 1px 0px black;
+    background-color: rgba(0, 0, 0, 0.511);
+    display: inline-block;
+    padding: 5px;
+    text-align: left;
+}
+
+section.imagem1 > p {
+    text-shadow: 1px 1px 0px black;
+    background-color: rgba(0, 0, 0, 0.511);
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    text-align: left;
+}
+section.imagem1{
+    text-align: right;
+}
+
+section#img2 {
+    background: black url(../../../../../Downloads/road-1072823.jpg) center right no-repeat fixed;
+    background-size: cover; 
+}

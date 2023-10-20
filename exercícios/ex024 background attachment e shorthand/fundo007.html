@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakcground Attachment e Shorthand</title>
+    <style>
+        body{
+            height: 100vh;
+            min-width: none;
+            /* background-color: black;
+            background-image: url(../ex022/imagens/wallpaper002.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+
+            background-attachment: fixed; o background attachment fixa a imagem no fundo mesmo com a rolagem acontecendo, ou seja a imagem fica estática. O uso da bg-size + bg-attachment dá um aspecto bom para o site */
+
+
+            
+            /* Shorthand - background 
+                color > imagem > position > repeat > [size] > attachment
+                [size] não está funcionando no shorthand, ou seja, deve ser declarada como background-size: cover por ora.
+
+            */
+            background: black url(../ex022/imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
+        }
+        main {
+            background-color: white;
+            max-width: 400px;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid darkblue;
+            border-radius: 15px;
+            font-family: sans-serif;
+            
+        }
+        main>h1{
+            text-align:center;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de Imagem de Fundo</h1>
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa quisquam voluptatem asperiores expedita ad vitae, tempora commodi. Molestias ipsa fugit ipsam magni illo voluptatibus itaque eius officia deserunt recusandae!</span><span>Vel, veniam. Quisquam consectetur labore hic fugiat dignissimos nostrum non perspiciatis in veniam placeat animi quaerat tenetur quis minus similique neque, illo fugit error assumenda et! Pariatur veritatis non accusamus.</span></p>
+        <p><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, maiores maxime. Ducimus iure impedit mollitia cupiditate suscipit enim asperiores obcaecati adipisci fugiat? Quia dolorum quod possimus corporis earum, accusantium omnis.</span><span>Cum autem dolorum explicabo provident, suscipit molestiae eveniet, qui odit deserunt animi at exercitationem et molestias sint quia voluptatem perspiciatis odio nemo amet, impedit alias doloribus porro. Omnis, sit esse?</span></p>
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, incidunt impedit dicta, repellat, cupiditate delectus illum error ea omnis beatae itaque ab quisquam autem neque dolores est ipsum. Inventore, officia?</span><span>Temporibus, impedit fugiat! Molestiae, porro inventore beatae tempora laudantium est, dolorem laboriosam dolorum possimus cum ut, mollitia modi officiis error ipsa cupiditate? Possimus, suscipit itaque adipisci hic quam dolores? Accusantium.</span></p>
+        <p><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo molestias asperiores ducimus natus est mollitia fuga neque aspernatur deleniti, obcaecati repellat dolorum totam accusantium tempora id, ipsum eos? Nulla, dicta.</span><span>Dolorum, sequi officiis! Nemo officia, esse possimus recusandae ipsa modi et aut numquam. Asperiores, expedita rerum in minus nam ipsum consequatur, nostrum repellendus quibusdam excepturi repellat quaerat eligendi consequuntur aut?</span></p>
+        <p><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et accusantium, consectetur veritatis hic recusandae dolores impedit eligendi laudantium fugiat ab dolorum at amet in rem molestias ex modi? Maiores, assumenda?</span><span>Iste corrupti, aut architecto cumque labore numquam non officiis quo eveniet ratione quibusdam perspiciatis itaque. Earum ipsam voluptate temporibus magnam vitae, a possimus optio eum voluptatibus dolorum. Labore, nesciunt quis?</span></p>
+
+    </main>
+</body>
+</html>
