@@ -115,6 +115,7 @@ section.imagem1{
 }
 
 section#img2 {
-    background: black url(../projeto\ cordel/imagens/road-1072823.jpg) center right no-repeat fixed;
-    background-size: cover; 
+    background: black url(../projeto\ cordel/imagens/road-1072823.jpg) center center no-repeat ;
+    background-size:cover; 
+    background-attachment: scroll;
 }
