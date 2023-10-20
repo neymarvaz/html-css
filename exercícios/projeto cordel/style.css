@@ -97,6 +97,7 @@ section.imagemr > p {
     display: inline-block;
     padding: 5px;
     text-align: left;
+    padding-right: 1.5vh;
 }
 
 section.imagem1 > p {
@@ -106,9 +107,11 @@ section.imagem1 > p {
     padding: 5px;
     color: white;
     text-align: left;
+    padding-right: 1.5vh;
 }
 section.imagem1{
     text-align: right;
+    padding-right: 3.5vh;
 }
 
 section#img2 {
