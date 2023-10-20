@@ -84,7 +84,7 @@ section.normal{
     
 }
 section.imagemr{
-    background: black url('../projeto\ cordel/imagens/pathamarelado.jpg') center center no-repeat fixed;
+    background: black url('../projeto\ cordel/imagens/pathamarelado.png') center center no-repeat fixed;
     color: white;
     box-shadow: inset 6px 4px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
